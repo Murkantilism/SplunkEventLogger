@@ -1,6 +1,3 @@
-SplunkScheduledJobsParser
-=========================
-
 NOTE: Open this file in Notepad++ or another code editor, not Notepad.
 @author: Deniz Ozkaynak - Created: 01/16/2013 - Last Updated: 01/22/2013
 
@@ -21,7 +18,7 @@ Dependencies
    
    Installation Instructions:
      a. Download easy_install
-   b. Run the executable file
+	 b. Run the executable file
 	 c. Follow the Installation Wizard setup, install to default location.
 
 	 
@@ -62,10 +59,12 @@ Dependencies
 NOTE: After downloading these dependencies, users MAY need to edit the import paths of
 FailedJobsLogger.py, WebScraper.py, and other programs to point them to the location of the
 newly downloaded dependencies so that they function as expected.
-
 ===============================================================================================
 
-An overview of all files in this project:
+
+
+===============================================================================================
+An overview of all the files included in this project:
 ===============================================================================================
 +-- Splunk Scheduled Jobs Parser
 	+-- webScraper
@@ -92,9 +91,9 @@ An overview of all files in this project:
 
 
 
-Testing
 ===============================================================================================
 Run tests togehter by running Tester_JobsLogger.py or Tester_WebScraper.py
+===============================================================================================
 
 To run Tester_JobsLogger cd to the directory containing the Splunk
 Scheduled Jobs Parser folder, then enter the following:
